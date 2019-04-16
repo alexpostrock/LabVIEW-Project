@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap schemaVersion="1.2" xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Instruments>
+		<NIRFPMInstrument name="VST_C1_S06" maxPortNumber="48" calibrationFilePath="" iviSwitchName="VST_C1_S06" fpgaFilePath="" />
+		<NIDCPowerInstrument name="DCPower1" numberOfChannels="4" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="RFIN" />
+		<DUTPin name="RFOUT" />
+		<DUTPin name="VDD_LMB_PA_DA" />
+		<DUTPin name="VDD_HB_PA_DA" />
+		<DUTPin name="VDD_BATT" />
+		<DUTPin name="VDD_DIG" />
+	</Pins>
+	<PinGroups></PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="RFIN" siteNumber="0" instrument="VST_C1_S06" channel="port1" />
+		<Connection pin="RFOUT" siteNumber="0" instrument="VST_C1_S06" channel="port2" />
+		<Connection pin="VDD_BATT" siteNumber="0" instrument="DCPower1" channel="0" />
+		<Connection pin="VDD_DIG" siteNumber="0" instrument="DCPower1" channel="1" />
+		<Connection pin="VDD_HB_PA_DA" siteNumber="0" instrument="DCPower1" channel="2" />
+		<Connection pin="VDD_LMB_PA_DA" siteNumber="0" instrument="DCPower1" channel="3" />
+	</Connections>
+</PinMap>

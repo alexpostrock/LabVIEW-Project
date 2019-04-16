@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap schemaVersion="1.1" xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Instruments>
+		<NIDCPowerInstrument name="DCPower1" numberOfChannels="4" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="Dummy" />
+	</Pins>
+	<PinGroups></PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+		<Site siteNumber="1" />
+		<Site siteNumber="2" />
+		<Site siteNumber="3" />
+	</Sites>
+	<Connections>
+		<Connection pin="Dummy" siteNumber="0" instrument="DCPower1" channel="0" />
+		<Connection pin="Dummy" siteNumber="1" instrument="DCPower1" channel="1" />
+		<Connection pin="Dummy" siteNumber="2" instrument="DCPower1" channel="2" />
+		<Connection pin="Dummy" siteNumber="3" instrument="DCPower1" channel="3" />
+	</Connections>
+</PinMap>

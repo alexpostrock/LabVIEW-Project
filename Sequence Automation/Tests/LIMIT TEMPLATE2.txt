@@ -1,0 +1,69 @@
+			TEST MODE:VA		TEST MODE:EN		TEST MODE:FT		TEST MODE:WS		TEST MODE:QA								
+<TestName>	<TestNumber>	<Pin>	<LowLimitExpression>	<HighLimitExpression>	<LowLimitExpression>	<HighLimitExpression>	<LowLimitExpression>	<HighLimitExpression>	<LowLimitExpression>	<HighLimitExpression>	<LowLimitExpression>	<HighLimitExpression>	<ScalingFactor>	<Units>	<EvaluationType>	<FailBin>	<PublishedDataId>	<ExportLocation>	
+SCRIPT_REVISION	1		0.00	100000.00	0.00	100000.00	0.00	100000.00	0.00	100000.00	0.00	100000.00			-1	Numeric Limit	Script Revision		
+Continuity_Cont_Pos	101	ALLDIGITAL	0.20	0.90	0.20	0.90	0.20	0.90	0.20	0.90	0.20	0.90		V	2	Numeric Limit	Continuity_Results		
+Continuity_Cont_Pos - RFFEDATA	101	RFFEDATA	0.20	0.90	0.20	0.90	0.20	0.90	0.20	0.90	0.20	0.90		V	2	Numeric Limit	Continuity_Results		
+Continuity_Cont_Neg	103	ALLDIGITAL	-0.90	-0.20	-0.90	-0.20	-0.90	-0.20	-0.90	-0.20	-0.90	-0.20		V	2	Numeric Limit	Continuity_Results		
+IIL	110	ALLDIGITAL	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	2	Numeric Limit	IIL		
+IIH	120	ALLDIGITAL	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	2	Numeric Limit	IIH		
+Vdd_Leakage_VCC1	500	VCC1	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	4	Numeric Limit	SLEEP_Current		
+Vdd_Leakage_VCC2	501	VCC2	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	4	Numeric Limit	SLEEP_Current		
+Vdd_Leakage_VBATT	502	VBATT	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	4	Numeric Limit	SLEEP_Current		
+Vdd_Leakage_VIO	503	VIO	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	-1.00	10.00	micro	A	4	Numeric Limit	SLEEP_Current		
+DefaultReg_0x1D	1000	RFFEDATA	239.90	243.10	239.90	243.10	239.90	243.10	239.90	243.10	239.90	243.10			3	Numeric Limit	DefaultReg_0x1D		
+DefaultReg_0x1E	1001	RFFEDATA	22.90	23.10	22.90	23.10	22.90	23.10	22.90	23.10	22.90	23.10			3	Numeric Limit	DefaultReg_0x1E		
+DefaultReg_0x1F	1002	RFFEDATA	46.90	47.10	46.90	47.10	46.90	47.10	46.90	47.10	46.90	47.10			3	Numeric Limit	DefaultReg_0x1F		
+DefaultReg_0x00	1003	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x00		
+DefaultReg_0x01	1004	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x01		
+DefaultReg_0x02	1005	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x02		
+DefaultReg_0x04	1006	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x04		
+DefaultReg_0x05	1007	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x05		
+DefaultReg_0x1C	1008	RFFEDATA	127.90	128.10	127.90	128.10	127.90	128.10	127.90	128.10	127.90	128.10			3	Numeric Limit	DefaultReg_0x1C		
+DefaultReg_0x20	1009	RFFEDATA	0.90	1.10	0.90	1.10	0.90	1.10	0.90	1.10	0.90	1.10			3	Numeric Limit	DefaultReg_0x20		
+DefaultReg_0x22	1010	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x22		
+DefaultReg_0x23	1011	RFFEDATA	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10	-0.10	0.10			3	Numeric Limit	DefaultReg_0x23		
+DefaultReg_0x40	1012	RFFEDATA	6.90	7.10	6.90	7.10	6.90	7.10	6.90	7.10	6.90	7.10			3	Numeric Limit	DefaultReg_0x40		
+DefaultRegReadNumErrors	2000	RFFEDATA	-0.50	0.50	-0.50	0.50	-0.50	0.50	-0.50	0.50	-0.50	0.50			3	Numeric Limit	DefaultRegReadNumErrors		
+USIDontheFlyReadNumFails	2001	RFFEDATA	-0.50	0.50	-0.50	0.50	-0.50	0.50	-0.50	0.50	-0.50	0.50			3	Numeric Limit	USIDontheFlyReadNumFails		
+Reg0x04Data0x00_Idd	4000	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x00_Idd		
+Reg0x04Data0x01_Idd	4001	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x01_Idd		
+Reg0x04Data0x02_Idd	4002	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x02_Idd		
+Reg0x04Data0x03_Idd	4003	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x03_Idd		
+Reg0x04Data0x04_Idd	4004	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x04_Idd		
+Reg0x04Data0x05_Idd	4005	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x05_Idd		
+Reg0x04Data0x06_Idd	4006	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x06_Idd		
+Reg0x04Data0x07_Idd	4007	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x07_Idd		
+Reg0x04Data0x08_Idd	4008	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x08_Idd		
+Reg0x04Data0x09_Idd	4009	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x09_Idd		
+Reg0x04Data0x0A_Idd	4010	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0A_Idd		
+Reg0x04Data0x0B_Idd	4011	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0B_Idd		
+Reg0x04Data0x0C_Idd	4012	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0C_Idd		
+Reg0x04Data0x0D_Idd	4013	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0D_Idd		
+Reg0x04Data0x0E_Idd	4014	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0E_Idd		
+Reg0x04Data0x0F_Idd	4015	VCC1	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x04Data0x0F_Idd		
+Reg0x04DataMAXDNLINDEX	4016	VCC1	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00		Code	-1	Numeric Limit	MAX DNL INDEX		
+Reg0x04DataMAXDNL	4017	VCC1	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30		LSB	-1	Numeric Limit	MAX DNL		
+Reg0x04DataMINDNLINDEX	4018	VCC1	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30		LSB	-1	Numeric Limit	MIN DNL		
+Reg0x04DataMINDNL	4019	VCC1	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00		Code	-1	Numeric Limit	MIN DNL INDEX		
+Reg0x04DataAVERAGELSBSTEPSIZE	4020	VCC1	1.20	3.20	1.20	3.20	1.20	3.20	1.20	3.20	1.20	3.20	milli	A	-1	Numeric Limit	AVERAGE LSB STEP SIZE		
+Reg0x05Data0x00_Idd	5000	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x00_Idd		
+Reg0x05Data0x01_Idd	5001	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x01_Idd		
+Reg0x05Data0x02_Idd	5002	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x02_Idd		
+Reg0x05Data0x03_Idd	5003	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x03_Idd		
+Reg0x05Data0x04_Idd	5004	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x04_Idd		
+Reg0x05Data0x05_Idd	5005	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x05_Idd		
+Reg0x05Data0x06_Idd	5006	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x06_Idd		
+Reg0x05Data0x07_Idd	5007	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x07_Idd		
+Reg0x05Data0x08_Idd	5008	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x08_Idd		
+Reg0x05Data0x09_Idd	5009	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x09_Idd		
+Reg0x05Data0x0A_Idd	5010	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0A_Idd		
+Reg0x05Data0x0B_Idd	5011	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0B_Idd		
+Reg0x05Data0x0C_Idd	5012	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0C_Idd		
+Reg0x05Data0x0D_Idd	5013	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0D_Idd		
+Reg0x05Data0x0E_Idd	5014	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0E_Idd		
+Reg0x05Data0x0F_Idd	5015	VCC2	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	0.00	200.00	milli	A	-1	Numeric Limit	Reg0x05Data0x0F_Idd		
+Reg0x05DataMAXDNLINDEX	5016	VCC2	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00		Code	-1	Numeric Limit	MAX DNL INDEX		
+Reg0x05DataMAXDNL	5017	VCC2	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30		LSB	-1	Numeric Limit	MAX DNL		
+Reg0x05DataMINDNLINDEX	5018	VCC2	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30	0.70	1.30		LSB	-1	Numeric Limit	MIN DNL		
+Reg0x05DataMINDNL	5019	VCC2	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00	0.00	15.00		Code	-1	Numeric Limit	MIN DNL INDEX		
+Reg0x05DataAVERAGELSBSTEPSIZE	5020	VCC2	5.70	7.70	5.70	7.70	5.70	7.70	5.70	7.70	5.70	7.70	milli	A	-1	Numeric Limit	AVERAGE LSB STEP SIZE		

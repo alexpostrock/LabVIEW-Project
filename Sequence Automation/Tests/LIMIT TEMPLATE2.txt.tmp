@@ -1,0 +1,223 @@
+																	
+<TestName>	<TestNumber>	<Pin>	<ScalingFactor>	<Units>	<EvaluationType>	<FailBin>	<PublishedDataId>	<ExportLocation>	<TestDataSource>	<Transform_Site0>	<Transform_Site1>	<Transform_Site2>	<Transform_Site3>	<Transform_Site4>	<Transform_Site5>	<Transform_Site6>	<Transform_Site7>
+	<SequenceName>	<StepName>	<StepId>	Functionality	337		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  0 IFDSA  0 27_5G CH1	350	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 0 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  0 IFDSA  1 27_5G CH1	351	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 1 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  0 IFDSA  2 27_5G CH1	352	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 2 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  0 IFDSA  3 27_5G CH1	353	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 3 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  4 IFDSA  0 27_5G CH1	354	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 4 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  8 IFDSA  0 27_5G CH1	355	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 5 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  12 IFDSA  0 27_5G CH1	356	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 6 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  16 IFDSA  0 27_5G CH1	357	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 7 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  19 IFDSA  0 27_5G CH1	358	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 8 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  20 IFDSA  0 27_5G CH1	359	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 9 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  24 IFDSA  0 27_5G CH1	360	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 10 Power			
+	<SequenceName>	<StepName>	<StepId>	Power  RFDSA  28 IFDSA  0 27_5G CH1	361	RFIN	0.00	0.00			Numeric Limit	-1	IQ Slot - Record 0 Slot 11 Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_9.7536G	123001		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_9.7536G	10111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_9.7536G	10112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_9.7536G	10113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_9.7536G	10114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_9.7536G	10115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_9.7536G	10116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_9.7536G	10117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_9.7536G	10118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_9.7536G	10119		0.00	0.00	giga		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_9.7536G	10120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_10.1376G	123002		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_10.1376G	20111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_10.1376G	20112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_10.1376G	20113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_10.1376G	20114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_10.1376G	20115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_10.1376G	20116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_10.1376G	20117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_10.1376G	20118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_10.1376G	20119		0.00	0.00	giga		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_10.1376G	20120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_10.5216G	123003		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_10.5216G	30111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_10.5216G	30112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_10.5216G	30113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_10.5216G	30114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_10.5216G	30115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_10.5216G	30116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_10.5216G	30117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_10.5216G	30118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_10.5216G	30119		0.00	0.00	giga		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_10.5216G	30120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_10.9056G	123004		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_10.9056G	40111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_10.9056G	40112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_10.9056G	40113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_10.9056G	40114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_10.9056G	40115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_10.9056G	40116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_10.9056G	40117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_10.9056G	40118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_10.9056G	40119		0.00	0.00	giga		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_10.9056G	40120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_11.0592G	123005		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_11.0592G	50111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_11.0592G	50112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_11.0592G	50113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_11.0592G	50114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_11.0592G	50115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_11.0592G	50116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_11.0592G	50117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_11.0592G	50118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_11.0592G	50119		0.00	0.00	giga		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_11.0592G	50120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	Burst Pattern_PLL_RW_CP_FEQ_11.136G	123006		0.00	0.00			Pass/Fail	-1	PassFail			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1k_11.136G	60111		0.00	0.00		dB	Numeric Limit	-1	1k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10k_11.136G	60112		0.00	0.00		dB	Numeric Limit	-1	10k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100k_11.136G	60113		0.00	0.00		dB	Numeric Limit	-1	100k			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_1M_11.136G	60114		0.00	0.00		dB	Numeric Limit	-1	1M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_10M_11.136G	60115		0.00	0.00		dB	Numeric Limit	-1	10M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_100M_11.136G	60116		0.00	0.00		dB	Numeric Limit	-1	100M			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Jitter_11.136G	60117		0.00	0.00		rad	Numeric Limit	-1	RMS Jitter			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Noise_11.136G	60118		0.00	0.00		dB	Numeric Limit	-1	RMS Noise			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Freq_11.136G	60119		0.00	0.00	mega		Numeric Limit	-1	Freq			
+	<SequenceName>	<StepName>	<StepId>	LO_OUT_RMS Power_11.136G	60120		0.00	0.00			Numeric Limit	-1	Power			
+	<SequenceName>	<StepName>	<StepId>	BML_SDOUT_OS_VDD	12001	BML_SDOUT	0.00	0.00	milli	V	Numeric Limit	-1	OS_VDD			
+	<SequenceName>	<StepName>	<StepId>	BML_SDIN_OS_VDD	12002	BML_SDIN	0.00	0.00	milli	V	Numeric Limit	-1	OS_VDD			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKOUT_OS_VDD	12003	BML_SCLKOUT	0.00	0.00	milli	V	Numeric Limit	-1	OS_VDD			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKIN_OS_VDD	12004	BML_SCLKIN	0.00	0.00	milli	V	Numeric Limit	-1	OS_VDD			
+	<SequenceName>	<StepName>	<StepId>	BML_STRIG_OS_VDD	12005	BML_STRIG	0.00	0.00	milli	V	Numeric Limit	-1	OS_VDD			
+	<SequenceName>	<StepName>	<StepId>	BML_SDOUT_OS_VSS	12006	BML_SDOUT	0.00	0.00	milli	V	Numeric Limit	-1	OS_VSS			
+	<SequenceName>	<StepName>	<StepId>	BML_SDIN_OS_VSS	12007	BML_SDIN	0.00	0.00	milli	V	Numeric Limit	-1	OS_VSS			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKOUT_OS_VSS	12008	BML_SCLKOUT	0.00	0.00	milli	V	Numeric Limit	-1	OS_VSS			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKIN_OS_VSS	12009	BML_SCLKIN	0.00	0.00	milli	V	Numeric Limit	-1	OS_VSS			
+	<SequenceName>	<StepName>	<StepId>	BML_STRIG_OS_VSS	12010	BML_STRIG	0.00	0.00	milli	V	Numeric Limit	-1	OS_VSS			
+	<SequenceName>	<StepName>	<StepId>	RFFE_1_1_PS	13011	RFFE_1_1	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	RFFE_1_2_PS	13012	RFFE_1_2	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	RFFE_2_1_PS	13013	RFFE_2_1	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	RFFE_2_2_PS	13014	RFFE_2_2	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	VDD0P9_CP_PS	13015	VDD0P9_CP	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	PLL_VDD1P8_RF_PS	13016	PLL_VDD1P8_RF	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	VDD0P9_BML_PS	13017	VDD0P9_BML	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	VDD1P8_BML_PS	13018	VDD1P8_BML	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	PLL_VDD1P8_ANA_PS	13019	PLL_VDD1P8_ANA	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	VDD_TCXO_PS	13020	VDD_TCXO	0.00	0.00	milli	A	Numeric Limit	-1	PS			
+	<SequenceName>	<StepName>	<StepId>	BML_SDOUT_IIH	14011	BML_SDOUT	0.00	0.00	milli		Numeric Limit	-1	IIH			
+	<SequenceName>	<StepName>	<StepId>	BML_SDIN_IIH	14012	BML_SDIN	0.00	0.00	milli		Numeric Limit	-1	IIH			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKOUT_IIH	14013	BML_SCLKOUT	0.00	0.00	milli		Numeric Limit	-1	IIH			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKIN_IIH	14014	BML_SCLKIN	0.00	0.00	milli		Numeric Limit	-1	IIH			
+	<SequenceName>	<StepName>	<StepId>	BML_STRIG_IIH	14015	BML_STRIG	0.00	0.00	milli		Numeric Limit	-1	IIH			
+	<SequenceName>	<StepName>	<StepId>	BML_SDOUT_IIL	14016	BML_SDOUT	0.00	0.00	milli		Numeric Limit	-1	IIL			
+	<SequenceName>	<StepName>	<StepId>	BML_SDIN_IIL	14017	BML_SDIN	0.00	0.00	milli		Numeric Limit	-1	IIL			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKOUT_IIL	14018	BML_SCLKOUT	0.00	0.00	milli		Numeric Limit	-1	IIL			
+	<SequenceName>	<StepName>	<StepId>	BML_SCLKIN_IIL	14019	BML_SCLKIN	0.00	0.00	milli		Numeric Limit	-1	IIL			
+	<SequenceName>	<StepName>	<StepId>	BML_STRIG_IIL	14020	BML_STRIG	0.00	0.00	milli		Numeric Limit	-1	IIL			
+	<SequenceName>	<StepName>	<StepId>	Gross_RFFE_1_1	1011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_RFFE_1_2	1012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_RFFE_2_1	1013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_RFFE_2_2	1014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_VDD0P9_CP	1015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_PLL_VDD1P8_RF	1016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_VDD0P9_BML	1017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_VDD1P8_BML	1018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_PLL_VDD1P8_ANA	1019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Gross_VDD_TCXO	1020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_RFFE_1_1	2011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_RFFE_1_2	2012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_RFFE_2_1	2013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_RFFE_2_2	2014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_VDD0P9_CP	2015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_PLL_VDD1P8_RF	2016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_VDD0P9_BML	2017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_VDD1P8_BML	2018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_PLL_VDD1P8_ANA	2019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Sleep_VDD_TCXO	2020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_RFFE_1_1	3011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_RFFE_1_2	3012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_RFFE_2_1	3013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_RFFE_2_2	3014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_VDD0P9_CP	3015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_PLL_VDD1P8_RF	3016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_VDD0P9_BML	3017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_VDD1P8_BML	3018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_PLL_VDD1P8_ANA	3019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Idle_VDD_TCXO	3020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_RFFE_1_1	4011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_RFFE_1_2	4012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_RFFE_2_1	4013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_RFFE_2_2	4014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_VDD0P9_CP	4015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_PLL_VDD1P8_RF	4016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_VDD0P9_BML	4017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_VDD1P8_BML	4018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_PLL_VDD1P8_ANA	4019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby1_VDD_TCXO	4020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_RFFE_1_1	5011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_RFFE_1_2	5012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_RFFE_2_1	5013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_RFFE_2_2	5014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_VDD0P9_CP	5015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_PLL_VDD1P8_RF	5016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_VDD0P9_BML	5017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_VDD1P8_BML	5018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_PLL_VDD1P8_ANA	5019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	Standby2_VDD_TCXO	5020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_RFFE_1_1	6011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_RFFE_1_2	6012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_RFFE_2_1	6013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_RFFE_2_2	6014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_VDD0P9_CP	6015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_PLL_VDD1P8_RF	6016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_VDD0P9_BML	6017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_VDD1P8_BML	6018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_PLL_VDD1P8_ANA	6019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON1_VDD_TCXO	6020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_RFFE_1_1	7011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_RFFE_1_2	7012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_RFFE_2_1	7013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_RFFE_2_2	7014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_VDD0P9_CP	7015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_PLL_VDD1P8_RF	7016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_VDD0P9_BML	7017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_VDD1P8_BML	7018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_PLL_VDD1P8_ANA	7019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON2_VDD_TCXO	7020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_RFFE_1_1	8011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_RFFE_1_2	8012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_RFFE_2_1	8013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_RFFE_2_2	8014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_VDD0P9_CP	8015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_PLL_VDD1P8_RF	8016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_VDD0P9_BML	8017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_VDD1P8_BML	8018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_PLL_VDD1P8_ANA	8019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	TXON3_VDD_TCXO	8020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_RFFE_1_1	9011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_RFFE_1_2	9012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_RFFE_2_1	9013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_RFFE_2_2	9014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_VDD0P9_CP	9015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_PLL_VDD1P8_RF	9016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_VDD0P9_BML	9017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_VDD1P8_BML	9018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_PLL_VDD1P8_ANA	9019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON1_VDD_TCXO	9020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_RFFE_1_1	10011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_RFFE_1_2	10012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_RFFE_2_1	10013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_RFFE_2_2	10014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_VDD0P9_CP	10015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_PLL_VDD1P8_RF	10016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_VDD0P9_BML	10017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_VDD1P8_BML	10018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_PLL_VDD1P8_ANA	10019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON2_VDD_TCXO	10020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_RFFE_1_1	11011	RFFE_1_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_RFFE_1_2	11012	RFFE_1_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_RFFE_2_1	11013	RFFE_2_1	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_RFFE_2_2	11014	RFFE_2_2	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_VDD0P9_CP	11015	VDD0P9_CP	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_PLL_VDD1P8_RF	11016	PLL_VDD1P8_RF	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_VDD0P9_BML	11017	VDD0P9_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_VDD1P8_BML	11018	VDD1P8_BML	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_PLL_VDD1P8_ANA	11019	PLL_VDD1P8_ANA	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	RXON3_VDD_TCXO	11020	VDD_TCXO	0.00	0.00	milli		Numeric Limit	-1	Current			
+	<SequenceName>	<StepName>	<StepId>	NF Cal - Measured PSD_test	362	RFIN	0.00	0.00			Numeric Limit	-1	IQ Noise Power - Measured PSD		FileGlobals.Instrument_Noise_Floors[0]	
+	<SequenceName>	<StepName>	<StepId>	NF Cal - Measured Power	363	RFIN	0.00	0.00			Numeric Limit	-1	IQ Noise Power - Measured Power			

@@ -1,0 +1,2691 @@
+-- config revision
+Revision = 0.5;
+OldestCompatibleRevision = 0.5;
+
+-- Easy to use constants
+kilo = 1e3;
+Mega = 1e6;
+Giga = 1e9;
+
+SourceCalibrationSettings["demo test_RFIN_Source"] = 
+{
+   ["type"] = "list",
+   
+   ["list"] = 
+   {
+      {
+          ["freq"] = 1.4279*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = -8,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = -8,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -8,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -7,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = -8,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = -7,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.4629*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.71*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = -12,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = -8.5,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = -13,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = -9.5,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = -6,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -13,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -12,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -9.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -8.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -6,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = -13,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = -9.5,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = -6,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = -12,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = -8.5,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = -5,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.785*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.85*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = -11,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = -7.5,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = -4,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = -1,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 2,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 3,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.915*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.92*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["portPower"] = 8,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["portPower"] = 8,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = -10,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = -6.5,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = -3,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = 0,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = -9,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = -2,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = -5.5,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 1,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 4,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 5,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 6,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 7,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["portPower"] = 8,
+      },
+      {
+          ["freq"] = 1.98*Giga,
+          ["portPower"] = 6,
+      }
+}
+};
+
+ReceiverCalibrationSettings["demo test_RFOUT_Receiver"] = 
+{
+   ["type"] = "list",
+   
+   ["list"] = 
+   {
+      {
+          ["freq"] = 1.4279*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.4279*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.4279*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.4279*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4329*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 18,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.4379*Giga,
+          ["referenceLevel"] = 42,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 18,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 31,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.4454*Giga,
+          ["referenceLevel"] = 42,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 18,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.4529*Giga,
+          ["referenceLevel"] = 42,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 31,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.4579*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.4629*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.4629*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.4629*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.71*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.71*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.71*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 31,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.7125*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.715*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.72*Giga,
+          ["referenceLevel"] = 43,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.73*Giga,
+          ["referenceLevel"] = 46,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 31,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 43,
+      },
+      {
+          ["freq"] = 1.7475*Giga,
+          ["referenceLevel"] = 46,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.765*Giga,
+          ["referenceLevel"] = 46,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.775*Giga,
+          ["referenceLevel"] = 43,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.78*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 31,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.7825*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.785*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.785*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.785*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.85*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.85*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.85*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.8525*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.855*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.86*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.87*Giga,
+          ["referenceLevel"] = 44,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.8825*Giga,
+          ["referenceLevel"] = 44,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 17,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 20.5,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 40,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.895*Giga,
+          ["referenceLevel"] = 44,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.905*Giga,
+          ["referenceLevel"] = 41,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.91*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.9125*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.915*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.915*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.915*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.92*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.92*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.92*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.9225*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.925*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.93*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.95*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 15,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 16,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 18.5,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 25,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 28,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 38,
+      },
+      {
+          ["freq"] = 1.97*Giga,
+          ["referenceLevel"] = 39,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 14,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 17.5,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 24,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.975*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 16.5,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 26,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 29,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 32,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 33,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 34,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 35,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 36,
+      },
+      {
+          ["freq"] = 1.9775*Giga,
+          ["referenceLevel"] = 37,
+      },
+      {
+          ["freq"] = 1.98*Giga,
+          ["referenceLevel"] = 27,
+      },
+      {
+          ["freq"] = 1.98*Giga,
+          ["referenceLevel"] = 30,
+      },
+      {
+          ["freq"] = 1.98*Giga,
+          ["referenceLevel"] = 34,
+      }
+}
+};
+

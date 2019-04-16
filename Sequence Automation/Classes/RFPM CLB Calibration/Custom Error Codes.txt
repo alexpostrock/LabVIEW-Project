@@ -1,0 +1,13 @@
+Error Code	Description
+     -5000	STS 48V Power Bad.
+     -5001	One or more Calibration Sweep Setting Files are invalid or don't not exists.
+     -5002	Calibration Sequence File invalid for '<Current RFPM Logical name>' or does not exists
+     -5003	Calibration Output File invalid for '<Current RFPM Logical name>'.
+     -5004	Multiple Calibration Types specified in '<Current Cal Sequence File path>' Calibration Sequence File.
+     -5005	Invalid Calibration Type '<parsed calibration type string> in Calibration Sequence '<Current Cal Sequence File path>'
+     -5006	Calibration of '<current sweep setting name>' Sweep setting failed for ports: <current port list>. <followed by internal RFPM error>
+     -5007	RF Calibration Load Board auto discovery failed. Is the RF CLB USB cable connected?
+     -5008	RF Subsystem Configuration requires atleast one VST to be configured.
+     -5009	Power meter not detected after 3 attempts.  Please disconnect and reconnect the USB cable to ensure proper connection.
+     -5010	A pinmap is required in order to use the STS RF Automatic Calibration Assistant.  Please select a sequence file with a pinmap associated or associate a pinmap with the current sequence file.  A pinmap can be associated with a sequence file by selecting "Edit Pinmap File" from TestStand's "Semiconductor Module" menu
+	 -5011  DUT pin not found in pinmap.  Please ensure that all DUT pins designated for calibration are present in the selected pinmap.
