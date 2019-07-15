@@ -1,0 +1,5 @@
+Pattern Name,MODE,Address,Data,R/W,Opcode
+SPI_TEST_FRM,SPI,0x042,0x0,w,pulse_signal(event0)
+,,0x142,0x0,w,
+,,0x143,0x0,w,Wait 1000
+,,0x1FF,0x0,w,

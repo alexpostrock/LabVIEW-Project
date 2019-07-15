@@ -1,0 +1,6 @@
+Pattern Name,OM,Burst Length,FSN,Start Address,Data,R/W,Opcode
+TX_DSA_GainRipple_REFE3,1,0,0,0x1912,0x85,w,
+,1,0,0,0x190F,0x4,w,
+,1,0,0,0x1914,0x20,w,pulse_signal(event0);Wait 1950
+,1,0,0,0x1914,0x28,w,Wait 1950
+,1,0,0,0x1914,0x33,w,

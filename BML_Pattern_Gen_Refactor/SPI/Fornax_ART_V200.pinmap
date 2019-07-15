@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2">
+	<Instruments>
+		<NIDigitalPatternInstrument name="Digital_1" numberOfChannels="32" />
+		<NIDCPowerInstrument name="SMU_1" numberOfChannels="4" />
+		<NIDCPowerInstrument name="SMU_2" numberOfChannels="4" />
+		<NIDCPowerInstrument name="SMU_3" numberOfChannels="4" />
+		<NIDCPowerInstrument name="SMU_4" numberOfChannels="4" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="SPI_CS" />
+		<DUTPin name="SPI_CLK_IN" />
+		<DUTPin name="SPI_DATA_IN" />
+		<DUTPin name="SPI_DATA_OUT" />
+		<DUTPin name="SPI_CLK_OUT" />
+		<DUTPin name="HV7V_1_A" />
+		<DUTPin name="HV7V_2_A" />
+		<DUTPin name="HV7V_3_A" />
+		<DUTPin name="SPI_VTRIM_LDO" />
+		<DUTPin name="VBATT_FE_V0" />
+		<DUTPin name="VBATT_PA_V7H7" />
+		<DUTPin name="VBATT_PA_V6H6" />
+		<DUTPin name="VBATT_PA_V5H5" />
+		<DUTPin name="VBATT_PA_V4H4" />
+		<DUTPin name="VBATT_PA_V3H3" />
+		<DUTPin name="VBATT_PA_V2H2" />
+		<DUTPin name="VBATT_PA_V1H1" />
+		<DUTPin name="VBATT_PA_V0H0" />
+		<DUTPin name="VBATT_FE_V67H67" />
+		<DUTPin name="VBATT_FE_V45H45_COMH" />
+		<DUTPin name="VBATT_FE_V23H23_COMV" />
+		<DUTPin name="VBATT_FE_V1H01" />
+		<DUTPin name="VBATT_BG" />
+		<DUTPin name="VBATT_1V8" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="SPI">
+			<PinReference pin="SPI_CS" />
+			<PinReference pin="SPI_CLK_IN" />
+			<PinReference pin="SPI_DATA_IN" />
+			<PinReference pin="SPI_DATA_OUT" />
+			<PinReference pin="SPI_CLK_OUT" />
+		</PinGroup>
+		<PinGroup name="VBATT_PA">
+			<PinReference pin="VBATT_PA_V7H7" />
+			<PinReference pin="VBATT_PA_V6H6" />
+			<PinReference pin="VBATT_PA_V4H4" />
+			<PinReference pin="VBATT_PA_V5H5" />
+			<PinReference pin="VBATT_PA_V3H3" />
+			<PinReference pin="VBATT_PA_V2H2" />
+			<PinReference pin="VBATT_PA_V1H1" />
+			<PinReference pin="VBATT_PA_V0H0" />
+		</PinGroup>
+		<PinGroup name="VBATT_FE">
+			<PinReference pin="VBATT_FE_V67H67" />
+			<PinReference pin="VBATT_FE_V45H45_COMH" />
+			<PinReference pin="VBATT_FE_V23H23_COMV" />
+			<PinReference pin="VBATT_FE_V1H01" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="HV7V_1_A" siteNumber="0" instrument="Digital_1" channel="17" />
+		<Connection pin="HV7V_2_A" siteNumber="0" instrument="Digital_1" channel="15" />
+		<Connection pin="HV7V_3_A" siteNumber="0" instrument="Digital_1" channel="29" />
+		<Connection pin="SPI_CS" siteNumber="0" instrument="Digital_1" channel="23" />
+		<Connection pin="SPI_CLK_IN" siteNumber="0" instrument="Digital_1" channel="21" />
+		<Connection pin="SPI_CLK_OUT" siteNumber="0" instrument="Digital_1" channel="25" />
+		<Connection pin="SPI_DATA_IN" siteNumber="0" instrument="Digital_1" channel="19" />
+		<Connection pin="SPI_DATA_OUT" siteNumber="0" instrument="Digital_1" channel="27" />
+		<Connection pin="SPI_VTRIM_LDO" siteNumber="0" instrument="SMU_1" channel="3" />
+		<Connection pin="VBATT_1V8" siteNumber="0" instrument="SMU_3" channel="0" />
+		<Connection pin="VBATT_BG" siteNumber="0" instrument="SMU_3" channel="1" />
+		<Connection pin="VBATT_FE_V0" siteNumber="0" instrument="SMU_1" channel="2" />
+		<Connection pin="VBATT_FE_V1H01" siteNumber="0" instrument="SMU_4" channel="2" />
+		<Connection pin="VBATT_FE_V23H23_COMV" siteNumber="0" instrument="SMU_4" channel="3" />
+		<Connection pin="VBATT_FE_V45H45_COMH" siteNumber="0" instrument="SMU_2" channel="0" />
+		<Connection pin="VBATT_FE_V67H67" siteNumber="0" instrument="SMU_2" channel="1" />
+		<Connection pin="VBATT_PA_V0H0" siteNumber="0" instrument="SMU_3" channel="2" />
+		<Connection pin="VBATT_PA_V1H1" siteNumber="0" instrument="SMU_3" channel="3" />
+		<Connection pin="VBATT_PA_V2H2" siteNumber="0" instrument="SMU_4" channel="0" />
+		<Connection pin="VBATT_PA_V3H3" siteNumber="0" instrument="SMU_4" channel="1" />
+		<Connection pin="VBATT_PA_V4H4" siteNumber="0" instrument="SMU_2" channel="2" />
+		<Connection pin="VBATT_PA_V5H5" siteNumber="0" instrument="SMU_2" channel="3" />
+		<Connection pin="VBATT_PA_V6H6" siteNumber="0" instrument="SMU_1" channel="0" />
+		<Connection pin="VBATT_PA_V7H7" siteNumber="0" instrument="SMU_1" channel="1" />
+	</Connections>
+</PinMap>

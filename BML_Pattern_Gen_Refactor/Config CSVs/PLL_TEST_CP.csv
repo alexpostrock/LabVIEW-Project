@@ -1,0 +1,2 @@
+Pattern Name,OM,Burst Length,FSN,Start Address,Data,R/W
+PLL_TEST_CP,1,0,0,0x911F,0xCD,R/W

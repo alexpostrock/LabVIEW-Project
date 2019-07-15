@@ -1,0 +1,25 @@
+file_format_version 1.0;
+timeset BML_TimeSet, Delay_3us;
+
+pattern BML_SetID_Start (BML_SDIN, BML_SCLKIN)
+{
+source_start(SetID_WFM)		BML_TimeSet		X		X;		// Start of BML SetID Frame
+							Delay_3us		X		X;
+							BML_TimeSet		0		1;		// Start of SetID Hdr
+repeat(10)					BML_TimeSet		1		1;		// SetID Hdr,ten "1" in a row
+							-				0		1;		// End of SetID Hdr
+repeat(5)					-				1		1;		// Sync Hdr
+							-				0		1;		// Start of chip select
+repeat(4), source			-				D		1;		// CS0 ~ CS3
+							-				0		1;		// nibble separator
+source						-				D		1;		// CS4
+source						-				D		1;		// OM0, OM mode expected to be "10"
+source						-				D		1;		// OM1
+source						-				D		1;		// R/W?
+							-				0		1;		// nibble separator
+repeat(4), source			-				D		1;		// BL0 ~ BL3
+							-				0		1;		// nibble separator
+repeat(4), source			-				D		1;		// FSN0 ~ FSN3
+							-				0		1;		// nibble separator
+halt						-				X		X;
+}

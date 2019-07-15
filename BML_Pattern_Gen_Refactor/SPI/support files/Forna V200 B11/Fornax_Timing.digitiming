@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="BS_Timing">
+        <Period>timing.period</Period>
+        <PinEdges>
+          <PinEdge pin="CS">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="CLK">
+            <ReturnToLow>
+              <On>0 ns</On>
+              <Data>(2 * timing.period) / 4</Data>
+              <Return>timing.period</Return>
+              <Off>timing.period</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="DATA">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="EFUSE_CLK">
+            <ReturnToLow>
+              <On>0 ns</On>
+              <Data>(2 * timing.period) / 4</Data>
+              <Return>timing.period</Return>
+              <Off>timing.period</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="EFUSE_PROGIN">
+            <ReturnToLow>
+              <On>0 ns</On>
+              <Data>(1 * timing.period) / 4</Data>
+              <Return>(3 * timing.period) / 4</Return>
+              <Off>timing.period</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="EFUSE_HV0">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PinLevelsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/PinLevels">
+  <PinLevelsSheet>
+    <DigitalPinLevelSets>
+      <DigitalPinLevelSet pin="SPI">
+        <Vil>0</Vil>
+        <Vih>DC.Voltage</Vih>
+        <Vol>0.5*DC.Voltage</Vol>
+        <Voh>0.5*DC.Voltage</Voh>
+        <Vterm>0</Vterm>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="EFUSE_PROGIN">
+        <Vil>0</Vil>
+        <Vih>DC.Voltage</Vih>
+        <Vol>0.5*DC.Voltage</Vol>
+        <Voh>0.5*DC.Voltage</Voh>
+        <Vterm>0</Vterm>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="EFUSE_CLK">
+        <Vil>0</Vil>
+        <Vih>DC.Voltage</Vih>
+        <Vol>0.5*DC.Voltage</Vol>
+        <Voh>0.5*DC.Voltage</Voh>
+        <Vterm>0</Vterm>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="EFUSE_HV0">
+        <Vil>0</Vil>
+        <Vih>6</Vih>
+        <Vol>0.5*6</Vol>
+        <Voh>0.5*6</Voh>
+        <Vterm>0</Vterm>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+    </DigitalPinLevelSets>
+    <PowerPinLevelSets>
+      <PowerPinLevelSet pin="AVCC25_LNA_DA_23">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_AMP23">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_AMP45_BIVGA">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_LNA_DA_45">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_LNA_DA_67">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_AMP67">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_AMP01">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_LNA_DA_01">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="AVCC25_BG">
+        <Vf>2.5</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="VDD18">
+        <Vf>1.8</Vf>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="VDD7">
+        <Vf>7</Vf>
+      </PowerPinLevelSet>
+    </PowerPinLevelSets>
+  </PinLevelsSheet>
+</PinLevelsFile>

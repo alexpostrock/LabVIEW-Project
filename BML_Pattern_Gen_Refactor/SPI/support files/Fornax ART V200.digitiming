@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="BS_Timing">
+        <Period>timing.period</Period>
+        <PinEdges>
+          <PinEdge pin="SPI_CS">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SPI_CLK_IN">
+            <ReturnToLow>
+              <On>0 ns</On>
+              <Data>(2 * timing.period) / 4</Data>
+              <Return>timing.period</Return>
+              <Off>timing.period</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SPI_DATA_IN">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SPI_DATA_OUT">
+            <DriveNonReturn>
+              <On>0 ns</On>
+              <Data>0</Data>
+              <Off>timing.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>(3 * timing.period) / 4</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

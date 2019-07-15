@@ -1,0 +1,7 @@
+Pattern Name,OM,Burst Length,FSN,Start Address,Data,R/W
+FAST_REG_TEST_MODE_REFE3,0,0,0,0x1842,0x0,w
+,0,0,0,0x8042,0x10,w
+,0,0,0,0x8842,0x11,w
+FAST_REG_TEST_MODE_REFE3,0,0,0,0x1854,0xB,w
+,0,0,0,0x8054,0xB,w
+,0,0,0,0x8854,0xB,w

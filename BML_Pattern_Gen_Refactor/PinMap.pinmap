@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2">
+	<Instruments>
+		<NIDigitalPatternInstrument name="6570" numberOfChannels="32" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="BML_SCLKIN" />
+		<DUTPin name="BML_SCLKOUT" />
+		<DUTPin name="BML_STRIG" />
+		<DUTPin name="BML_SDIN" />
+		<DUTPin name="BML_SDOUT" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="BML_PinGroup">
+			<PinReference pin="BML_SCLKOUT" />
+			<PinReference pin="BML_SCLKIN" />
+			<PinReference pin="BML_STRIG" />
+			<PinReference pin="BML_SDIN" />
+			<PinReference pin="BML_SDOUT" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="BML_SCLKIN" siteNumber="0" instrument="6570" channel="0" />
+		<Connection pin="BML_SCLKOUT" siteNumber="0" instrument="6570" channel="1" />
+		<Connection pin="BML_SDIN" siteNumber="0" instrument="6570" channel="2" />
+		<Connection pin="BML_SDOUT" siteNumber="0" instrument="6570" channel="3" />
+		<Connection pin="BML_STRIG" siteNumber="0" instrument="6570" channel="4" />
+	</Connections>
+</PinMap>

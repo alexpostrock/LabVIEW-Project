@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="11008008">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str">debug,0;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -82,6 +82,7 @@
 			<Item Name="Init PLC Settings.vi" Type="VI" URL="../subVI/Init PLC Settings.vi"/>
 			<Item Name="Parse Motor Config Data.vi" Type="VI" URL="../subVI/Parse Motor Config Data.vi"/>
 			<Item Name="Types of Controls.ctl" Type="VI" URL="../Ctls/Types of Controls.ctl"/>
+			<Item Name="Update Motor Config Control Settings.vi" Type="VI" URL="../subVI/Update Motor Config Control Settings.vi"/>
 			<Item Name="Update OI Controls.vi" Type="VI" URL="../subVI/Update OI Controls.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -90,6 +91,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{0C44A387-C785-433D-9CD3-125F19B96EE8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{5E525D19-D238-47CB-9C1B-8B1963D5E739}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3BB25F31-34D7-45EF-8DBD-60053DBEC465}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -98,6 +100,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13E92173-5E03-462A-A40F-1AEF136F786C}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -112,10 +116,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">3</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2018 </Property>
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>

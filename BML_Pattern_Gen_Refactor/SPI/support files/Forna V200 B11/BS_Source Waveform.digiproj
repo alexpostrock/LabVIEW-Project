@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C9E0CAE5CB46E7C82A77AF144BBCFD40" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.0.50003" FeatureSetName="Digital Pattern Editor" MinimumParsableVersion="4.6.0.0" MinimumSemanticallyEquivalentVersion="4.6.0.0" Name="http://www.ni.com/PatternBasedDigital" Version="4.6.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.50003" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.6.0.1" />
+		<ApplicationVersionInfo Build="4.7.0.50003" Name="Digital Pattern Editor" Version="17.0.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="3" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="14" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax__Fixed\.digipat" StoragePath="Fornax__Fixed.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,SpecificationsDefinition,FileReference" Id="15" ModelDefinitionType="SpecificationsDefinition" Name="Fornax_Specifications\.specs" StoragePath="Fornax_Specifications.specs" />
+			<FileReference Bindings="Envoy,DefinitionReference,PinLevelsDefinition,FileReference" Id="16" ModelDefinitionType="PinLevelsDefinition" Name="Fornax_PinLevels\.digilevels" StoragePath="Fornax_PinLevels.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Bindings="Envoy,DefinitionReference,TimingDefinition,FileReference" Id="17" ModelDefinitionType="TimingDefinition" Name="Fornax_Timing\.digitiming" StoragePath="Fornax_Timing.digitiming" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Bindings="Envoy,DefinitionReference,PinMap,FileReference" Id="19" ModelDefinitionType="PinMap" Name="Fornax_PinMap\.pinmap" StoragePath="Fornax_PinMap.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="55" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_Reg_Test\.digipat" StoragePath="Fornax_Source_Reg_Test.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,SourceWaveformDefinition,FileReference" Id="56" ModelDefinitionType="SourceWaveformDefinition" Name="Fornax_Source_Waveform\.tdms" StoragePath="Fornax_Source_Waveform.tdms" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="65" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Fixed_Write\.digipat" StoragePath="Fornax_Fixed_Write.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="66" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Fixed_Read\.digipat" StoragePath="Fornax_Fixed_Read.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,CaptureWaveformDefinition,FileReference" Id="67" ModelDefinitionType="CaptureWaveformDefinition" Name="Fornax_Capture_Waveform\.digicapture" StoragePath="Fornax_Capture_Waveform.digicapture" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="74" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source\.digipat" StoragePath="Fornax_Source.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="75" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_Reg_Test_Read_00\.digipat" StoragePath="Fornax_Source_Reg_Test_Read_00.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="76" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_Reg_Test_Read_FF\.digipat" StoragePath="Fornax_Source_Reg_Test_Read_FF.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="78" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_Reg_Test_Read_AA\.digipat" StoragePath="Fornax_Source_Reg_Test_Read_AA.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="79" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_Reg_Test_Read_55\.digipat" StoragePath="Fornax_Source_Reg_Test_Read_55.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="86" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_PS_Scan\.digipat" StoragePath="Fornax_PS_Scan.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="87" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_PS_Reg_0\.digipat" StoragePath="Fornax_PS_Reg_0.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="88" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_PS_Reg_1\.digipat" StoragePath="Fornax_PS_Reg_1.digipat" />
+			<FileReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.PatternDefinition,FileReference" Id="89" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="Fornax_Source_PS\.digipat" StoragePath="Fornax_Source_PS.digipat" />
+		</NameScopingEnvoy>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,DigitalPatternEditor.ProjectPropertiesDefinition,EmbeddedReference" Id="7" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
+			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+		</EmbeddedDefinitionReference>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

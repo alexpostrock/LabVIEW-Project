@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2">
+	<Instruments>
+		<NIDigitalPatternInstrument name="Digital_1" numberOfChannels="32" />
+		<NIDCPowerInstrument name="SMU_1" numberOfChannels="4" />
+		<NIDCPowerInstrument name="SMU_2" numberOfChannels="4" />
+		<NIDCPowerInstrument name="SMU_3" numberOfChannels="4" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="CS" />
+		<DUTPin name="CLK" />
+		<DUTPin name="DATA" />
+		<DUTPin name="REXT" />
+		<DUTPin name="ATE_VDD12" />
+		<DUTPin name="EFUSE_PROGIN" />
+		<DUTPin name="EFUSE_CLK" />
+		<DUTPin name="EFUSE_RXD" />
+		<DUTPin name="EFUSE_HV0" />
+		<DUTPin name="AVCC25_LNA_DA_23" />
+		<DUTPin name="AVCC25_AMP23" />
+		<DUTPin name="AVCC25_AMP45_BIVGA" />
+		<DUTPin name="AVCC25_LNA_DA_45" />
+		<DUTPin name="AVCC25_LNA_DA_67" />
+		<DUTPin name="AVCC25_AMP67" />
+		<DUTPin name="AVCC25_AMP01" />
+		<DUTPin name="AVCC25_LNA_DA_01" />
+		<DUTPin name="AVCC25_BG" />
+		<DUTPin name="VDD18" />
+		<DUTPin name="VDD7" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="SPI">
+			<PinReference pin="CS" />
+			<PinReference pin="CLK" />
+			<PinReference pin="DATA" />
+		</PinGroup>
+		<PinGroup name="EFUSE">
+			<PinReference pin="EFUSE_PROGIN" />
+			<PinReference pin="EFUSE_CLK" />
+			<PinReference pin="EFUSE_RXD" />
+			<PinReference pin="EFUSE_HV0" />
+		</PinGroup>
+		<PinGroup name="Voltage_Measure">
+			<PinReference pin="REXT" />
+			<PinReference pin="ATE_VDD12" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="ATE_VDD12" siteNumber="0" instrument="Digital_1" channel="10" />
+		<Connection pin="AVCC25_AMP01" siteNumber="0" instrument="SMU_1" channel="2" />
+		<Connection pin="AVCC25_AMP23" siteNumber="0" instrument="SMU_2" channel="1" />
+		<Connection pin="AVCC25_AMP45_BIVGA" siteNumber="0" instrument="SMU_2" channel="2" />
+		<Connection pin="AVCC25_AMP67" siteNumber="0" instrument="SMU_1" channel="1" />
+		<Connection pin="AVCC25_BG" siteNumber="0" instrument="SMU_3" channel="0" />
+		<Connection pin="AVCC25_LNA_DA_01" siteNumber="0" instrument="SMU_1" channel="3" />
+		<Connection pin="AVCC25_LNA_DA_23" siteNumber="0" instrument="SMU_2" channel="0" />
+		<Connection pin="AVCC25_LNA_DA_45" siteNumber="0" instrument="SMU_2" channel="3" />
+		<Connection pin="AVCC25_LNA_DA_67" siteNumber="0" instrument="SMU_1" channel="0" />
+		<Connection pin="CS" siteNumber="0" instrument="Digital_1" channel="6" />
+		<Connection pin="CLK" siteNumber="0" instrument="Digital_1" channel="2" />
+		<Connection pin="REXT" siteNumber="0" instrument="Digital_1" channel="8" />
+		<Connection pin="DATA" siteNumber="0" instrument="Digital_1" channel="4" />
+		<Connection pin="EFUSE_CLK" siteNumber="0" instrument="Digital_1" channel="5" />
+		<Connection pin="EFUSE_HV0" siteNumber="0" instrument="Digital_1" channel="1" />
+		<Connection pin="EFUSE_RXD" siteNumber="0" instrument="Digital_1" channel="3" />
+		<Connection pin="EFUSE_PROGIN" siteNumber="0" instrument="Digital_1" channel="7" />
+		<Connection pin="VDD18" siteNumber="0" instrument="SMU_3" channel="2" />
+		<Connection pin="VDD7" siteNumber="0" instrument="SMU_3" channel="1" />
+	</Connections>
+</PinMap>

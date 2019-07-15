@@ -1,0 +1,37 @@
+file_format_version 1.0;
+timeset BML_TimeSet;
+
+pattern SetID (BML_SCLKIN, BML_SCLKOUT, BML_SDIN, BML_SDOUT, BML_STRIG)
+{
+               	BML_TimeSet    	1	X	0	X	X;	// start of the pattern
+               	-              	1	X	0	X	X; //Into SetID State
+repeat(10)     	-              	1	X	1	X	X;
+               	-              	1	X	0	X	X;
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X; //Sync hdr
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //ChipID
+               	-              	1	X	0	X	X; //InitID
+               	-              	1	X	1	X	X; //InitID
+               	-              	1	X	0	X	X; //Write
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+repeat(50)     	-              	1	X	0	X	X; //Wait for 50 Timeset
+repeat(10)     	-              	1	X	0	X	X; //out SetID state
+repeat(15)     	-              	1	X	1	X	X;
+repeat(10)     	-              	1	X	0	X	X;
+halt           	-              	X	X	X	X	X;
+}

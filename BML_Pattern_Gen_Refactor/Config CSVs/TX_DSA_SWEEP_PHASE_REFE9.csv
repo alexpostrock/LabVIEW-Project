@@ -1,0 +1,8 @@
+Pattern Name,OM,Burst Length,FSN,Start Address,Data,R/W,Opcode
+TX_DSA_SWEEP_PHASE_REFE9,1,0,0,0x4912,0x85,w,
+,1,0,0,0x490F,0x4,w,
+,1,0,0,0x4914,0x20,w,pulse_signal(event0);Wait 1890
+,1,0,0,0x4914,0x28,w,Wait 1890
+,1,0,0,0x4914,0x33,w,Wait 1890
+,1,0,0,0x4914,0x3C,w,Wait 1890
+,1,0,0,0x4914,0x20,w,
