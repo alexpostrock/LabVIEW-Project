@@ -16,6 +16,7 @@
 		<Item Name="GRR Core.lvclass" Type="LVClass" URL="../Classes/GRR Core/GRR Core.lvclass"/>
 		<Item Name="Result Data Mgr.lvclass" Type="LVClass" URL="../Classes/Result Data Mgr/Result Data Mgr.lvclass"/>
 		<Item Name="STDF File Parser.lvclass" Type="LVClass" URL="../Classes/STDF File Parser/STDF File Parser.lvclass"/>
+		<Item Name="Test Data.vi" Type="VI" URL="../TEST/Test Data.vi"/>
 		<Item Name="TestDataMgr.lvclass" Type="LVClass" URL="../Classes/TestDataMgr/TestDataMgr.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
