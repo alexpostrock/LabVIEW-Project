@@ -11,12 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_TEST" Type="Folder">
+			<Item Name="Test Data.vi" Type="VI" URL="../TEST/Test Data.vi"/>
+			<Item Name="Test GRR Core.vi" Type="VI" URL="../TEST/Test GRR Core.vi"/>
+			<Item Name="Test Main.vi" Type="VI" URL="../TEST/Test Main.vi"/>
 			<Item Name="Test_Parser.vi" Type="VI" URL="../TEST/Test_Parser.vi"/>
 		</Item>
 		<Item Name="GRR Core.lvclass" Type="LVClass" URL="../Classes/GRR Core/GRR Core.lvclass"/>
+		<Item Name="Process Bar.lvclass" Type="LVClass" URL="../Classes/Process Bar/Process Bar.lvclass"/>
 		<Item Name="Result Data Mgr.lvclass" Type="LVClass" URL="../Classes/Result Data Mgr/Result Data Mgr.lvclass"/>
+		<Item Name="Result Display.lvclass" Type="LVClass" URL="../Classes/Result Display/Result Display.lvclass"/>
 		<Item Name="STDF File Parser.lvclass" Type="LVClass" URL="../Classes/STDF File Parser/STDF File Parser.lvclass"/>
-		<Item Name="Test Data.vi" Type="VI" URL="../TEST/Test Data.vi"/>
 		<Item Name="TestDataMgr.lvclass" Type="LVClass" URL="../Classes/TestDataMgr/TestDataMgr.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
