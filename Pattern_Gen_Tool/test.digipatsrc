@@ -1,0 +1,308 @@
+file_format_version 1.0;
+timeset BML_TimeSet;
+
+pattern Pattern_FRM_CONFIG (BML_SCLKIN, BML_SCLKOUT, BML_SDIN, BML_SDOUT, BML_STRIG)
+{
+BML_TimeSet    	-              	1	X	0	X	X;	// start of the pattern
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ImmeEff
+               	-              	1	X	0	X	X; //ImmeEff
+               	-              	1	X	0	X	X;//Write
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+repeat(200)    	-              	1	X	0	X	X; //Wait for 200 Timeset
+repeat(50)     	-              	1	X	0	X	X; //Wait for 50 Timeset
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X;//Normal
+               	-              	1	X	0	X	X;//Normal
+               	-              	1	X	1	X	X;//Rd
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+repeat(40)     	-              	1	X	0	X	X; //Wait for 40 Timeset
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //Load
+               	-              	1	X	1	X	X; //Load
+               	-              	1	X	1	X	X;//Rd
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+repeat(10)     	-              	1	X	0	X	X; //Wait for 10 Timeset
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ImmeEff
+               	-              	1	X	0	X	X; //ImmeEff
+               	-              	1	X	0	X	X;//Write
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+               	-              	1	X	1	X	X;// Data 0x55
+               	-              	1	X	0	X	X;// Data 0x55
+repeat(50)     	-              	1	X	0	X	X; //Wait for 50 Timeset
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X;//Normal
+               	-              	1	X	0	X	X;//Normal
+               	-              	1	X	1	X	X;//Rd
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+repeat(40)     	-              	1	X	0	X	X; //Wait for 40 Timeset
+               	-              	1	X	0	X	X;
+repeat(5)      	-              	1	X	1	X	X;//Sync Hdr
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	0	X	X; //ChipID 1
+               	-              	1	X	1	X	X; //Load
+               	-              	1	X	1	X	X; //Load
+               	-              	1	X	1	X	X;//Rd
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //BurstLength
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //FSN
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	1	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X; //Addr 0x0355
+               	-              	1	X	0	X	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+               	-              	1	X	X	H	X;
+               	-              	1	X	X	L	X;
+halt           	-              ;
+}
