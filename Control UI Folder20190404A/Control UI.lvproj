@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,11 +15,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="CmdData.ctl" Type="VI" URL="../CmdData.ctl"/>
+			<Item Name="CmdData.ctl" Type="VI" URL="../Ctls/CmdData.ctl"/>
 			<Item Name="DatabaseCmd.ctl" Type="VI" URL="../Ctls/DatabaseCmd.ctl"/>
 			<Item Name="LoggingRate.ctl" Type="VI" URL="../Ctls/LoggingRate.ctl"/>
 			<Item Name="MagType.ctl" Type="VI" URL="../Ctls/MagType.ctl"/>
 			<Item Name="MotorConfig.ctl" Type="VI" URL="../Ctls/MotorConfig.ctl"/>
+			<Item Name="MotorSpeedScale.ctl" Type="VI" URL="../Ctls/MotorSpeedScale.ctl"/>
 			<Item Name="MotroConfigData.ctl" Type="VI" URL="../Ctls/MotroConfigData.ctl"/>
 			<Item Name="QueueData.ctl" Type="VI" URL="../Ctls/QueueData.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../Ctls/State.ctl"/>
@@ -78,7 +80,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="DisplayIndicator.ctl" Type="VI" URL="../Ctls/DisplayIndicator.ctl"/>
-			<Item Name="Init OI.vi" Type="VI" URL="../subVI/Init OI.vi"/>
+			<Item Name="Init Controls.vi" Type="VI" URL="../subVI/Init Controls.vi"/>
 			<Item Name="Init PLC Settings.vi" Type="VI" URL="../subVI/Init PLC Settings.vi"/>
 			<Item Name="Parse Motor Config Data.vi" Type="VI" URL="../subVI/Parse Motor Config Data.vi"/>
 			<Item Name="Types of Controls.ctl" Type="VI" URL="../Ctls/Types of Controls.ctl"/>
