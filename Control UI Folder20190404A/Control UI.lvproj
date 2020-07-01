@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="CCSymbols" Type="Str">debug,0;</Property>
+	<Property Name="CCSymbols" Type="Str">debug,1;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -42,6 +42,7 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="S7 TCP.lvlib" Type="Library" URL="../Siemens S7 TCP v3_3 LV 8_5/Siemens S7 TCP v3_3 LV 8_5/S7 TCP API Library/S7 TCP.lvlib"/>
+		<Item Name="ConsumerLoopData.ctl" Type="VI" URL="../Ctls/ConsumerLoopData.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -78,12 +79,14 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="DisplayIndicator.ctl" Type="VI" URL="../Ctls/DisplayIndicator.ctl"/>
 			<Item Name="Init Controls.vi" Type="VI" URL="../subVI/Init Controls.vi"/>
 			<Item Name="Init PLC Settings.vi" Type="VI" URL="../subVI/Init PLC Settings.vi"/>
 			<Item Name="Parse Motor Config Data.vi" Type="VI" URL="../subVI/Parse Motor Config Data.vi"/>
-			<Item Name="Types of Controls.ctl" Type="VI" URL="../Ctls/Types of Controls.ctl"/>
 			<Item Name="Update Motor Config Control Settings.vi" Type="VI" URL="../subVI/Update Motor Config Control Settings.vi"/>
 			<Item Name="Update OI Controls.vi" Type="VI" URL="../subVI/Update OI Controls.vi"/>
 		</Item>
