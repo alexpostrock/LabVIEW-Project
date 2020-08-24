@@ -127,7 +127,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13E92173-5E03-462A-A40F-1AEF136F786C}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Motor Control UI.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Motor Control UI.exe</Property>
@@ -209,7 +209,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{0A7A8D61-F31D-435E-AF83-063A25FE5E3E}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">One Motor UI</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
 				<Property Name="MSI_arpCompany" Type="Str">美国国家仪器中国有限公司</Property>
